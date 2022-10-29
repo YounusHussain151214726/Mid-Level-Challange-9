@@ -64,12 +64,14 @@ body {
   font-size: 2.5rem;
   width: 70%;
   line-height: 4rem;
+color: white;
 }
 
 .content > p {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   padding-top: 1rem;
   width: 87%;
+line-height: 3rem;
 }
 
 .btn {
@@ -95,6 +97,9 @@ button:hover {
 .socials {
   display: flex;
   justify-content: flex-end;
+  position: relative;
+  top: 5rem;
+  left: 4rem;
 }
 .icons {
   position: relative;
@@ -129,8 +134,11 @@ button:hover {
     width: 100%;
     margin: 0;
   }
+  .btn{
+    text-align: center;
+  }
   .btn button {
-    width: 50%;
+    width: 20rem;
   }
   .socials {
     justify-content: center;
@@ -142,6 +150,7 @@ button:hover {
   .content > h1,
   .content > p {
     width: 100%;
+  text-align: center;
   }
 }
 @media only screen and (min-width: 912px) and (max-width: 1024px) {
